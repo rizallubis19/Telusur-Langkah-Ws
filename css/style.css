@@ -258,7 +258,7 @@ nav ul ul ul li{
 }
 
 .cta-btn {
-  background: #ff5361;
+  background: #114d4d;
   color: #fff;
   text-decoration: none;
   padding: 12px 30px;
@@ -267,8 +267,8 @@ nav ul ul ul li{
   display: inline-block;
 }
 .cta-btn:hover {
-  background: #fff;
-  color: #000;
+  background: #ff5361;
+  color: #fff;
 }
 
 /* TRAVELLER STORIES */
