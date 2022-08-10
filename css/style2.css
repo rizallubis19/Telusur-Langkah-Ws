@@ -513,8 +513,8 @@ section.facilities {
   display: inline-block;
 }
 .cta-btn:hover {
-  background: #fff;
-  color: #000;
+  background: #ff5361;
+  color: #fff;
 }
 
 /* TRAVELLER STORIES */
