@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Telusur Langkah - Calender</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/evo-calendar.min.css">
+    <link rel="stylesheet" href="css/evo-calendar.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- ------------------------------------------- -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="file:///E:/jquery.js"></script>
+  </head>
+  <body>
+    <!-- NAVIGASI -->
+    <nav>
+      <div class="logo"><img src="img/newlogo.png" alt=""></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">About Us +</label>
+          <a href="#" class="active-page">About +</a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <li><a href="about.html">Telusur</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </li>
+        <li><a href="destinasi.html">Destinasi</a></li>
+        <li>
+          <label for="btn-2" class="show">Event +</label>
+          <a href="#">Event +</a>
+          <input type="checkbox" id="btn-2">
+          <ul>
+            <li><a href="calender.html">Calender</a></li>
+            <li><a href="#">Kegiatan</a></li>
+            <li>
+              <label for="btn-3" class="show">More +</label>
+              <a href="#">More <span class="fa fa-plus"></span></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="#">Submenu-1</a></li>
+                <li><a href="#">Submenu-2</a></li>
+                <li><a href="#">Submenu-3</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="listing.html">Katalog</a></li>
+        <li><a href="booking.html">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Akhir Navigasi -->
+    <!-- --------------------------------------------------------------------- -->
+    <div class="hero">
+        <div id="calendar"></div>
+    </div>
+    
+        <!-- Footer -->
+  <footer>
+    <div class="layar-dalam">
+        <div>
+          <h5>Telusur Langkah</h5>
+            <img src="img/newlogo.png" alt="" style="width: 100px;"> <br> <br>
+            <p>Eksplor Gunung, Hutan, dan Laut Sumatera.</p> <br> <p>Kebijakan Privacy</p>
+        </div>
+        <div>
+          <h5>----- Follow Us -----</h5>
+          <a href="https://www.instagram.com/telusurlangkah/"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.facebook.com/telusurlangkah/"><i class="fa-brands fa-facebook"></i></a>
+          <i class="fa-brands fa-twitter"></i>
+        </div>
+        <div>
+            <h5>Sekretariat</h5>
+            <p>Jl. Bunga Aster, Gg. Pelita, Pasar 6, Padang Bulan, Medan Selayang</p> <br>
+            <p>Medan - Indonesia 20117</p>
+        </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="layar-dalam">
+        <div class="copyright">
+            <p>&copy : 2022 Telusur Langkah.</p>
+        </div>
+    </div>
+</footer>
+<!-- JQUERY LINK -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+<!-- js for toggle menu -->
+<script>
+    var navBar = document.getElementById("navBar");
+
+    function togglebtn(){
+        navBar.classList.toggle("hidemenu");
+    }
+</script>
+<!-- // evo-calendar.js, right after jQuery (required) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/evo-calendar.min.js"></script>
+
+    <script>
+      //  initialize your calendar, once the page's DOM is ready
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+              
+              theme: "Midnight Blue",
+              calendarEvents: [
+      {
+        id: 'event1', // Event's ID (required)
+        name: "New Year", // Event name (required)
+        date: "January/1/2020", // Event date (required)
+        type: "holiday", // Event type (required)
+        everyYear: true // Same event every year (optional)
+      },
+      {
+        name: "Vacation Leave",
+        badge: "02/13 - 02/15", // Event badge (optional)
+        date: ["February/13/2020", "February/15/2020"], // Date range
+        description: "Vacation leave for 3 days.", // Event description (optional)
+        type: "event",
+        color: "#63d867" // Event custom color (optional)
+      }
+    ]
+            })
+        })
+        </script>
+</body>
+</html>

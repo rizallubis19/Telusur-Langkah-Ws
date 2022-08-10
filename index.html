@@ -3,12 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Telusur Langkah - Home</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- ------------------------------------------- -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
     <link rel="stylesheet" href="file:///E:/fontawesome/css/all.css">
@@ -18,7 +27,8 @@
   <body>
     <!-- NAVIGASI -->
     <nav>
-      <div class="logo"><img src="img/logo.png" alt=""></div>
+      <div class="logo"><img src="img/newlogo.png" alt="Logo"></div>
+      <div class="titles"><h3>Telusur Langkah</h3></div>
       <label for="btn" class="icon">
         <span class="fa fa-bars"></span>
       </label>
@@ -30,18 +40,18 @@
           <a href="#">About +</a>
           <input type="checkbox" id="btn-1">
           <ul>
-            <li><a href="#">Telusur</a></li>
-            <li><a href="#">Team</a></li>
-            <li><a href="#">Gallery</a></li>
+            <li><a href="about.html">Telusur</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
           </ul>
         </li>
-        <li><a href="#">Destinasi</a></li>
+        <li><a href="destinasi.html">Destinasi</a></li>
         <li>
           <label for="btn-2" class="show">Event +</label>
           <a href="#">Event +</a>
           <input type="checkbox" id="btn-2">
           <ul>
-            <li><a href="#">Calender</a></li>
+            <li><a href="calender.html">Calender</a></li>
             <li><a href="#">Kegiatan</a></li>
             <li>
               <label for="btn-3" class="show">More +</label>
@@ -55,8 +65,8 @@
             </li>
           </ul>
         </li>
-        <li><a href="#">Katalog</a></li>
-        <li><a href="#">Mercendaise</a></li>
+        <li><a href="listing.html">Katalog</a></li>
+        <li><a href="booking.html">Contact</a></li>
       </ul>
     </nav>
     <!-- Akhir Navigasi -->
@@ -75,28 +85,28 @@
             <img src="img/header2.jpg" alt="">
             <div class="info">
                 <h2 class="header-judul">Pulau Pandang</h2>
-                <p>Pulau dengan pantai pasir putih yang sangat elok berbatasan dengan selat Malaka. <br>Batubara, Sumatera Utara, Indonesia</p>
+                <p>Pulau dengan pantai pasir putih yang sangat elok yang berbatasan dengan selat Malaka. <br>Batubara, Sumatera Utara, Indonesia</p>
             </div>
             </div>
             <div class="slides">
             <img src="img/header3.jpg" alt="">
             <div class="info">
-                <h2 class="header-judul">Pulau Kalimuntung</h2>
-                <p>Terletak di Pulau Mursala dengan air laut yang jernih kebiruan terhampar sekitar satu hektar. <br> Tapanuli Tengah, Sumatera Utara, Indonesia/p>
+                <h2 class="header-judul">Pulau Kalimantung</h2>
+                <p>Terletak di Pulau Mursala memiliki air laut yang jernih kebiruan terhampar sekitar satu hektar. <br> Tapanuli Tengah, Sumatera Utara, Indonesia</p>
             </div>
             </div>
             <div class="slides">
             <img src="img/header4.jpg" alt="">
             <div class="info">
                 <h2 class="header-judul">Air Terjun Eifrata, Samosir</h2>
-                <p>Air terjun yang langsung mengarah ke danau dengan bukit yang sangat elok. <br> Samosir, Sumatera Utara, Indonesia/p>
+                <p>Air terjun yang langsung mengarah ke danau di kelilingi bukit yang sangat elok. <br> Samosir, Sumatera Utara, Indonesia</p>
             </div>
             </div>
             <div class="slides">
             <img src="img/header5.JPG" alt="">
             <div class="info">
                 <h2 class="header-judul">Pulau Banyak</h2>
-                <p>Pulau dengan jumlah 7000 lebih dengan pemandangan pantai pasir putih yang sangat memukau. <br> Aceh Singkil, Indonesia</p>
+                <p>Destinasi dengan jumlah 7000 lebih pulau kecil, dengan pemandangan pantai pasir putih yang sangat memukau. <br> Aceh Singkil, Indonesia</p>
             </div>
             </div>
             <div class="navigation">
@@ -113,22 +123,68 @@
 
     <!-- PROMO SECTION -->
 
-    <div class="promo">
+    <!-- <div class="promo">
       <div class="judul"><h1>Promo Bulanan</h1></div>
       <div class="sub-promo">
         <div class="promo-gbr">
-          <img src="img/BMC.PNG" alt="">
+          <img src="img/promo17an.jpeg" alt="promo">
         </div>
         <div class="promo-text">
           <div class="promo-h4"><h4>Promo Trip</h4></div>
-          <p class="promo-tgl">Pulau Banyak, <br> 22 juli - 24 juli 2022</p>
+          <p class="promo-tgl">Pulau Pandang dan Salahnamo, <br> 22 juli - 24 juli 2022</p> <br>
           <a href="#" class="cta-btn">Booking Now</a>
         </div>
       </div>
-    </div>
+    </div> -->
+    <div class="containers">
+        <div class="promo-container">
+          <div class="pro-col">
+            <h1>Promo Bulan Ini</h1>
+            <div class="promos">
+              <div class="promo-img">
+                  <img src="img/promo17an.jpeg" alt="">
+              </div>
+              <div class="promo-info">
+                  <p>Promo Trip Kemerdekaan</p>
+                  <h3>Pulau Pandang Dan Salah Namo</h3>
+                  <p>Individu atau Kelompok / Berangkat Sabtu-Minggu / 4 Destinasi</p>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <div class="promo-price">
+                      <p>Diupdate tgl 1 Agustus 2022</p>
+                      <h4>Rp 279.000 <span>/ Pax</span></h4>
+                      <a href="#" class="cta-btn">Booking Now</a>
+                  </div>
+              </div>
+          </div>
+        </div>  
+
+        <div class="right-col">
+          <div class="sidebar">
+              <h2>Pendaftaran</h2> <br>
+              <div class="filter">
+                  <input type="checkbox"><p>Menerima Pendaftaran Perorangan atau kelompok</p>
+              </div>
+              <div class="filter">
+                  <input type="checkbox"><p>Pendaftaran selambatnya -3H sebelum keberangkatan</p>
+              </div>
+              <div class="filter">
+                  <input type="checkbox"><p>DP 50% dari total keseluruhan dan pelunasan pada hari H sebelum keberangkatan</p>
+              </div>
+             
+              <div class="filter">
+                  <input type="checkbox"><p>Untuk keberangkatan diluar meeting point hubungi pusat informasi</p>
+              </div>
+          </div>
+      </div>
+  </div>   
+      </div>
 
     <div class="text-pro">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae reiciendis tempora neque sed quia dolor alias deleniti voluptates. Rem, cupiditate. Enim laboriosam hic magni architecto mollitia dolorem possimus totam tempora?</p> <br> <br>
+      <p>Kami hadir memberikan layanan wisata untuk Anda yang ingin menghabiskan waktu liburan dan healling yang berkesan, dengan menyediakan pilihan destinasi yang sangat indah dan memukau mata dan pastinya fasilitas lengkap dan memadai untuk memastikan kepuasan, kenyamanan, dan keamanan selama trip, dan mendapatkan pengalaman wisata berharga yang tak terlupakan.</p> <br> <br>
     </div>    
     <!-- AKHIR PROMO -->
     <!-- --------------------------------------------------------------------------------------------- -->
@@ -139,41 +195,44 @@
           <div class="slide-track">
               <!-- 9 slides -->
               <div class="slide">
-                  <img src="asset/merc.png" alt="" style="width: 50%;">
+                  <img src="img/merc1.png" alt="merc1">
               </div>
               <div class="slide">
-                  <img src="img/19.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/20.jpg" alt="">
+                  <img src="img/merc2.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/21.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/22.jpg" alt="">
+                  <img src="img/merc1.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/23.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/24.jpg" alt="">
+                  <img src="img/merc2.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/25.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/26.jpg" alt="">
+                  <img src="img/merc1.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/1.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/2.jpg" alt="">
+                  <img src="img/merc2.png" alt="">
               </div>
               <div class="slide">
-                  <img src="img/3.jpg" alt="">
+                  <img src="img/blank.png" alt="">
               </div>
+              <div class="slide">
+                <img src="img/merc1.png" alt="">
+            </div>
           </div>
       </div>
     </div>
@@ -202,49 +261,49 @@
     <!-- ARTICLE -->
     <section class="facilities">
       <h1>Artikel Terbaru</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, explicabo.</p>
+      <p>Artikel terkait destinasi wisata yang kami tawarkan yang layak untuk dikunjungi.</p>
 
       <div class="row">
           <div class="facilities-col">
-              <img src="img/banyak1.png" alt="article">
-                  <h3>World Class Library</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
-                  25 juli - Tidak Ada Komentar</p>
+              <img src="img/samsr1.jpg" alt="article">
+                  <h3>Pulau Samosir, Pesona Alam Tengah Danau</h3>
+                  <p>Keindahan pemandangan di Pulau Samosir Sumatera Utara akan membius Anda sejenak. Bagaimana tidak? Sebuah pulau vulkanik nan indah terbentang di tengah Danau Toba, yang juga merupakan danau terluas di Asia Tenggara.<br> <a href="https://www.gosumatra.com/pulau-samosir/">SELENGKAPNYA...</a><br> <br><hr>
+                    25 juli - 4 Komentar</p>
           </div>
 
           <div class="facilities-col">
-              <img src="img/banyak2.jpg" alt="playground">
-                  <h3>Largest Play Ground</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
-                    25 juli - Tidak Ada Komentar</p>
+              <img src="img/pandang2.jpg" alt="playground">
+                  <h3>WisataPulau Pandang, Banyak Hal Asyik Bisa Dinikmati Di Sini!</h3>
+                  <p>Pulau Pandang menyimpan panorama alam yang memukau di bawah lautnya. Di sana kamu dapat menyaksikan berbagai macam terumbu karang yang cantik mempesona.<br> <a href="https://tourtoba.com/pulau-pandang/">SELENGKAPNYA...</a> <br> <br><hr>
+                    12 Agustus - Tidak Ada Komentar</p>
           </div>
 
           <div class="facilities-col">
-              <img src="img/banyak3.jpg" alt="">
-                  <h3>Tasty and Healty Food</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
-                    25 juli - Tidak Ada Komentar</p>
+              <img src="img/5.JPG" alt="">
+                  <h3>Pulau Mursala, Destinasi Wisata Cantik Lokasi Film King Kong</h3>
+                  <p>Destinasi wisata alam cantik Pulau Mursala memang sudah terkenal, bagaimana tidak menjadi terkenal karena pernah digunakan sebagai lokasi syuting Film King Kong,<br> <a href="https://siajun.com/pulau-mursala/">SELENGKAPNYA...</a> <br> <br><hr>
+                    14 Desember 2021 - Tidak Ada Komentar</p>
           </div>
       </div>
       <div class="row">
         <div class="facilities-col">
-            <img src="img/banyak1.png" alt="librarry">
-                <h3>World Class Library</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
-                  25 juli - Tidak Ada Komentar</p>
+            <img src="img/banyak2.jpg" alt="pulau banyak">
+                <h3>PULAU BANYAK Wisata Bahari Lengkap Di Aceh Singkil</h3>
+                <p>Pesona kawasan kepulauan ini semakin mencuat di dunia pariwisata. Tidak sedikit yang menyandingkan panorama laut biru-kehijauan dan pasir putihnya dengan Maladewa. Mari intip seperti apa pesona pulau di ujung barat Indonesia ini. <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
+                  26 juli - Tidak Ada Komentar</p>
         </div>
 
         <div class="facilities-col">
-            <img src="img/banyak2.jpg" alt="playground">
-                <h3>Largest Play Ground</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
+            <img src="img/kalimantung2.png" alt="playground">
+                <h3>Pulau Kalimantung di Sumatera Utara, Pulau Indah Dengan Air Terjun Langsung Ke Laut</h3>
+                <p>Banyak orang mengira hanya air terjun Mursala yang ada di Kabupaten ini. Nyatanya keindahan pulau ini tidak kalah memukau. Tidak heran jika destinasi ini menjadi salah satu destinasi yang paling digandrungi. <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
                   25 juli - Tidak Ada Komentar</p>
         </div>
 
         <div class="facilities-col">
             <img src="img/banyak3.jpg" alt="">
-                <h3>Tasty and Healty Food</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deleniti minus reprehenderit, culpa quo atque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nihil!<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
+                <h3>Pulau Banyak di Aceh, Pulau Dengan Gugusan Pulau Kecil Yang Eksotis</h3>
+                <p>Tidak hanya menawarkan keindahan alam, di tempat ini pengunjung juga bisa melakukan berbagai aktivitas seru. Keindahan bahari di pulau ini memang menarik perhatian sehingga banyak yang rela melakukan perjalanan selama berjam-jam.<br> <a href="#">SELENGKAPNYA...</a> <br> <br><hr>
                   25 juli - Tidak Ada Komentar</p>
         </div>
     </div>
@@ -254,8 +313,8 @@
   <!-- TEAM SECTION -->
   <div class="cta">
     <h3>Our Profesional Team</h3>
-    <p style="color: aliceblue;">Team Kami adalah orang-orang berpengalaman dengan pengetahuan wisata yang terjamin dan siap memberikan pelayanan terbaik untuk pelancong.</p>
-    <a href="team.html" class="cta-btn">Know More</a>
+    <p style="color: aliceblue;">Team Kami adalah orang-orang berpengalaman dengan pengetahuan wisata yang terjamin dan siap memberikan pelayanan terbaik untuk wisatawan.</p>
+    <a href="team.html" class="cta-btn">Baca Selengkapnya</a>
 </div>
 
 <!-- TRAVELLERS STORY -->
@@ -271,60 +330,60 @@
           <div>
             <div class="slide-str">
               <div class="slide-img img-1">
-                <a href="#">Learn More</a>
+                <a href="destinasi.html">Lihat Destinasi</a>
               </div>
               <br>
               <div>
-                <h3>Pulau Banyak</h3>
-                <p>Rina sintia</p>
+                <h3>Pulau Samosir</h3>
+                <p>"Menjelajah keindahan samosir dan menemukan spot wisata tak terduga"</p>
               </div>
             </div>
           </div>
           <div>
             <div class="slide-str">
               <div class="slide-img img-2">
-                <a href="#">Learn More</a>
+                <a href="destinasi.html">Lihat Destinasi</a>
               </div>
               <br>
               <div>
                 <h3>Pulau Pandang</h3>
-                <p>Ahmad Resky</p>
+                <p>"Aku tidak lagi sama setelah melihat keindahan senja di belahan bumi sumatera"</p>
               </div>
             </div>
           </div>
           <div>
             <div class="slide-str">
               <div class="slide-img img-3">
-                <a href="#">Learn More</a>
+                <a href="destinasi.html">Lihat Destinasi</a>
               </div>
               <br>
               <div>
                 <h3>Pulau Kalimantung</h3>
-                <p>Bara Setiawan</p>
+                <p>"Terkadang kita akan menemukan keluarga baru selama trip"</p>
               </div>
             </div>
           </div>
           <div>
             <div class="slide-str">
               <div class="slide-img img-4">
-                <a href="#">Learn More</a>
+                <a href="destinasi.html">Lihat Destinasi</a>
               </div>
               <br>
               <div>
-                <h3>Pulau Samosir</h3>
-                <p>Jesep ringgo</p>
+                <h3>Pulau Banyak</h3>
+                <p>"Eksplor keindahan wisata bahari dengan tim"</p>
               </div>
             </div>
           </div>
           <div>
             <div class="slide-str">
               <div class="slide-img img-5">
-                <a href="#">Learn More</a>
+                <a href="destinasi.html">Lihat Destinasi</a>
               </div>
               <br>
               <div>
                 <h3>Pulau Mursala</h3>
-                <p>Rahmat Danu</p>
+                <p>"Keindahan pemandangan sunset seakan lupa akan suasana kehidupan di kota"</p>
               </div>
             </div>
           </div>
@@ -349,7 +408,7 @@
           <img src="asset/compas.png" />
           <h6>Guide Berpengalaman</h6>
           <p>
-              Memiliki pemandu wisata berpengalaman dan pastinya pengetahuan tentang destinasi sehingga memastikan pelancong puas.dengan peralatan dan prasarana pendukung yang lengkap untuk membuat trip yang nyaman dan aman.
+              Pemandu wisata berpengalaman dengan pengetahuan tentang destinasi sehingga memastikan pelancong puas, dengan peralatan dan prasarana pendukung yang lengkap.
           </p>
       </div>
       <div>
@@ -366,8 +425,9 @@
   <footer>
     <div class="layar-dalam">
         <div>
-            <img src="img/logo.png" alt="" style="width: 100px;"> <br>
-            Eksplor Surga Sumatera. <br> <br> Kebijakan Privacy
+          <h5>Telusur Langkah</h5>
+            <img src="img/newlogo.png" alt="" style="width: 100px;"> <br> <br>
+            <p>Eksplor Gunung, Hutan, dan Laut Sumatera.</p> <br> <p>Kebijakan Privacy</p>
         </div>
         <div>
           <h5>----- Follow Us -----</h5>
@@ -377,15 +437,16 @@
         </div>
         <div>
             <h5>Sekretariat</h5>
-            Jl. Sisingamangaraja No. 13 <br>
-            Medan - Indonesia 20117
+            <img src="img/home2.png" style="width: 90px;" alt=""> <br> <br>
+            <p>Jl. Bunga Aster, Gg. Pelita, Pasar 6, Padang Bulan, Medan Selayang</p> <br>
+            <p>Medan - Indonesia 20117</p>
         </div>
     </div>
 
     <!-- copyright -->
     <div class="layar-dalam">
         <div class="copyright">
-            &copy : 2022 Telusur Langkah for Promotion.
+            <p>&copy : 2022 Telusur Langkah.</p>
         </div>
     </div>
 </footer>
@@ -451,6 +512,6 @@
       });
     </script>
     <!-- ------------------------------------------------------ -->
-  <script src="script.js"></script>
+  <script src="js/script2.js"></script>
   </body>
 </html>
